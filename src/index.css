@@ -1,29 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-primary text-textPrimary dark:bg-primary-light dark:text-textPrimary-light transition-colors duration-300;
+  }
 }
 
-body {
-  @apply bg-primary text-textPrimary;
-}
+@layer components {
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-16;
+  }
 
-.section-padding {
-  @apply py-20 px-4 md:px-8 lg:px-16;
-}
-
-.container-custom {
-  @apply max-w-7xl mx-auto;
-}
-
-.gradient-text {
-  @apply bg-clip-text text-transparent bg-gradient-to-r from-secondary to-blue-500;
-}
-
-.card-hover {
-  @apply transition-all duration-300 hover:scale-105 hover:shadow-xl;
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
 }
