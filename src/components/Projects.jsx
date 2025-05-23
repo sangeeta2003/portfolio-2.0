@@ -11,7 +11,7 @@ const Projects = () => {
         "Developed an engaging social media platform using HTML, CSS, React JS, Node.js, and MongoDB",
         "Implemented secure user authentication and authorization to protect user data and ensure privacy"
       ],
-      github: "https://github.com/your-username/coddit",
+      github: "https://github.com/sangeeta2003/codit",
       live: "https://coddit.com"
     },
     {
@@ -23,7 +23,7 @@ const Projects = () => {
           "Optimized application for cross-browser compatibility and responsive design, reaching a wider audience",
           "Collaborated with backend teams to integrate ExpressJS and MongoDB for efficient data handling"
         ],
-        github: "https://github.com/your-username/eco",
+        github: "https://github.com/sangeeta2003/Eco",
         live: "https://eco-demo.com"
       },
     // Add more projects here
