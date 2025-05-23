@@ -4,7 +4,7 @@ import { FaDownload } from 'react-icons/fa';
 const CVDownload = () => {
   return (
     <motion.a
-      href="/cv.pdf" // Add your CV file path here
+      href="/cv.pdf" 
       download
       className="inline-flex items-center gap-2 px-6 py-3 bg-secondary text-primary font-semibold rounded-lg hover:bg-secondary/80 transition-colors"
       whileHover={{ scale: 1.05 }}

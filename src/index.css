@@ -21,3 +21,14 @@
     @apply max-w-7xl mx-auto;
   }
 }
+.profile-image {
+  @apply w-48 h-48 md:w-64 md:h-64 lg:w-80 lg:h-80;
+  @apply rounded-full overflow-hidden;
+  @apply border-4 border-secondary/20;
+  @apply shadow-lg;
+  @apply transition-transform duration-300;
+}
+
+.profile-image:hover {
+  @apply scale-105;
+}
